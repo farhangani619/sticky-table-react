@@ -47,9 +47,6 @@
 
 }
 
-.scrollable tbody td{
-  /* max-width: 20px; */
-}
 
 td {
   min-height: 30px !important;
@@ -64,9 +61,6 @@ tr{
 } 
 thead tr{
   height: 70px;
-}
-.scrollable td{
-  /* padding-left:30px !important; */
 }
 table{
   width:100% !important;
@@ -106,8 +100,4 @@ justify-content: flex-start;
 align-items: center;
 padding-left: 10px;
 padding-right: 5px;
-}
-
-.fixed .row-styles :first-child{
-
 }
