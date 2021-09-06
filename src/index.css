@@ -1,13 +1,113 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  display: flex;
+}
+.scroll {
+  width: 100vw;
+  overflow-x: scroll;
+}
+.fixed {
+  border-spacing: 0 10px;
+}
+.fixed td{
+  width: 20px !important;
+}
+.fixed thead td{
+  padding-left: 10px;
+}
+.fixed thead tr {
+  background-color: #333333;
+}
+.scrollable thead tr {
+  background-color: #333333;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.scrollable thead {
+  background-color: #333333;
+}
+.scrollable thead td {
+  max-width: 300px;
+  width :300px;
+}
+.fixed tbody tr {
+  /* background-color:#f5f6f5 ; */
+  border:0.3px solid #808080;
+  border-right:none;
+  border-left:none;
+  
+}
+
+
+
+  /* box-shadow: rgb(255,255, 255) 0px 0px 0px 5px, #808080 0px 0px 0px 6px, #808080 0px 0px 0px 2px; */
+  
+.scrollable {
+  border-spacing: 0 10px;
+
+
+
+}
+
+.scrollable tbody td{
+  /* max-width: 20px; */
+}
+
+td {
+  min-height: 30px !important;
+  padding: 6px 0px 6px 0px;
+  white-space: nowrap;
+ 
+  
+}
+
+tr{
+  white-space: nowrap;
+} 
+thead tr{
+  height: 70px;
+}
+.scrollable td{
+  /* padding-left:30px !important; */
+}
+table{
+  width:100% !important;
+}
+
+tbody td{
+  border: solid 1px #808080;
+	background: #f6f5f6 content-box;  
+  border-left: none;
+  border-right: none;
+  /* border-radius: 100px; */
+  height: 75px;
+  
+}
+.scrollable .row-styles {
+background-color: #fff;
+/* border-radius: 5px; */
+/* padding: 23px 50px; */
+text-align: left;
+display: flex;
+min-height: 65px;
+justify-content: flex-start;
+/* width: 150px; */
+align-items: center;
+padding-left: 30px;
+padding-right: 30px;
+margin-right: 0px;
+margin-left: 5px;
+}
+
+.fixed .row-styles{
+text-align: left;
+display: flex;
+min-height: 50px;
+justify-content: flex-start;
+/* width: 150px; */
+align-items: center;
+padding-left: 10px;
+padding-right: 5px;
+}
+
+.fixed .row-styles :first-child{
+
 }
